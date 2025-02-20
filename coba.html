@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Saya</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 20px;
+        }
+        section {
+            padding: 40px;
+        }
+        .portfolio {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .card {
+            background: white;
+            margin: 10px;
+            padding: 20px;
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            width: 250px;
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.1);
+        }
+        footer {
+            background: #333;
+            color: white;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .social-links {
+            margin-top: 20px;
+        }
+        .social-links a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+            font-size: 18px;
+        }
+        .social-links a:hover {
+            color: #007BFF;
+        }
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            alert("Selamat datang di Portfolio Saya!");
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Selamat Datang di Portfolio Saya</h1>
+        <p>Nama Anda - Web Developer</p>
+    </header>
+    
+    <section>
+        <h2>Tentang Saya</h2>
+        <p>Saya adalah seorang web developer yang suka membangun website kreatif dan responsif.</p>
+    </section>
+    
+    <section>
+        <h2>Portofolio</h2>
+        <div class="portfolio">
+            <div class="card">
+                <h3>Proyek 1</h3>
+                <p>Deskripsi proyek pertama</p>
+            </div>
+            <div class="card">
+                <h3>Proyek 2</h3>
+                <p>Deskripsi proyek kedua</p>
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <h2>Kontak</h2>
+        <p>Email: contoh@email.com</p>
+        <p>Instagram: @contoh</p>
+        <div class="social-links">
+            <a href="#">LinkedIn</a>
+            <a href="#">GitHub</a>
+            <a href="#">Twitter</a>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Nama Anda. Semua Hak Dilindungi.</p>
+    </footer>
+</body>
+</html>
